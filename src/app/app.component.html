@@ -1,9 +1,10 @@
 
+<body>
 <app-latestphotos></app-latestphotos>
 
 <div class="title">Images</div>>
 <div class="row">
-  <div class="column">
+
     <div class="cart" *ngFor="let photo of photos" >
       <img src="{{ photo.Url }}" />
 
@@ -13,5 +14,6 @@
         </p>
       </div>
     </div>
-  </div>
+
 </div>
+</body>

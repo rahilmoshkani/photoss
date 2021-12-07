@@ -1,3 +1,6 @@
+
+
+
 .cart {
   box-shadow: 0 8px 16px 0 rgba(24, 17, 17, 0.2);
 
@@ -5,11 +8,16 @@
   background-color: rgb(211, 221, 221);
   height: 1500px;
   width: 2000px;
-
+ float: left;
   flex: 30%;
+  max-width: 30%;
 margin: 1%;
 
 }
+
+
+
+
 
 .row {
   display: flex;
@@ -30,10 +38,8 @@ img {
   line-height: 80px;
 }
 
-.column {
-  display: flex;
-  flex-wrap: wrap;
-}
+
+
 .title {
   font-size: 200px;
   padding: 5%;
